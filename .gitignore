@@ -2,8 +2,8 @@
 .vscode/
 .vs/
 .pio/
-[Bb]in/
-[Obj]/
+bin/
+obj/
 *.user
 *.userosscache
 *.sln.DotSettings.user
