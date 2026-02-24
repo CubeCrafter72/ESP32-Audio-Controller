@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows10.0.19041.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <ApplicationIcon>slider.ico</ApplicationIcon>
+        <LangVersion>13</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NAudio" Version="2.2.1" />
+      <PackageReference Include="System.IO.Ports" Version="9.0.9" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="slider.ico">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+.idea/
+.vscode/
+.vs/
+.pio/
+[Bb]in/
+[Obj]/
+*.user
+*.userosscache
+*.sln.DotSettings.user
+*.suo
+*.sln.doccache
